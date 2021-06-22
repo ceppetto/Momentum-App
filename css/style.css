@@ -1,3 +1,100 @@
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .hidden {
 	display: none;
+}
+
+.input {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid white;
+	background-color: transparent;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 15px;
+}
+
+::placeholder {
+	text-align: center;
+	color: white;
+	opacity: 70%;
+}
+
+/* clock part */
+#clock {
+	margin-top: 15%;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 130px;
+	color: white;
+}
+
+/* nickname part */
+#login-form,
+#greeting {
+	height: 30%;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#login-form input {
+	width: 15%;
+	height: 30px;
+	font-size: 20px;
+}
+
+#greeting {
+	margin-top: 0;
+	font-size: 40px;
+	color: white;
+}
+
+/* todo-form part */
+#todo-form {
+	text-align: center;
+}
+
+#todo-form input {
+	width: 25%;
+	height: 20px;
+	margin-bottom: 1%;
+	font-size: 20px;
+}
+
+/* todo-list part */
+#todo-list {
+	text-align: center;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+/* weather part */
+#weather {
+	padding-top: 1%;
+	padding-right: 1%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* quote part */
+#quote {
+	width: 100%;
+	padding-bottom: 1%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-style: italic;
 }
